@@ -55,7 +55,7 @@ public class DemoConfig extends JFinalConfig {
 
     @Override
     public void configEngine(Engine me) {
-        me.add(new ContextPathHandler());
+      
     }
 
     @Override
@@ -96,7 +96,7 @@ public class DemoConfig extends JFinalConfig {
 
     @Override
     public void configHandler(Handlers me) {
-
+        me.add(new ContextPathHandler());
     }
     public void save() {
         String likeStr = "select * from addresslist";
